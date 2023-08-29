@@ -1,5 +1,8 @@
-#netflix gpt
--CRA
--Configured Tailwind css in our app
+# Netflix gpt
 
--
+- CRA
+- Configured Tailwind CSS in our app
+
+# Plans
+
+- Header
