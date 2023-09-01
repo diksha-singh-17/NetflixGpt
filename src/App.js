@@ -1,9 +1,9 @@
-import "./App.css";
+import Body from "./components/Body";
 
 function App() {
   return (
-    <div className="App text-3xl font-bold underline">
-      <h1>namaste everyone</h1>
+    <div>
+      <Body />
     </div>
   );
 }
