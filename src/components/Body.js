@@ -2,7 +2,9 @@ import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
 import Login from "./Login";
-import Browser from "./Browser";
+import Browse from "./Browse";
+import Header from "./Header";
+
 const Body = () => {
   const appRouter = createBrowserRouter([
     {
@@ -10,10 +12,15 @@ const Body = () => {
       element: <Login />,
     },
     {
-      path: "/browser",
-      element: <Browser />,
+      path: "/browse",
+      element: <Browse />,
+    },
+    {
+      path: "/header",
+      element: <Header />,
     },
   ]);
+
   return <RouterProvider router={appRouter} />;
 };
 
