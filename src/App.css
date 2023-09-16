@@ -1,0 +1,8 @@
+body {
+  /* overflow-y: hidden; Hide vertical scrollbar */
+  overflow-x: hidden;
+   /* Hide horizontal scrollbar */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

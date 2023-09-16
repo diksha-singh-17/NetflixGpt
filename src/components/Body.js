@@ -4,7 +4,7 @@ import { RouterProvider } from "react-router-dom";
 import Login from "./Login";
 import Browse from "./Browse";
 import Header from "./Header";
-
+import "../App.css";
 const Body = () => {
   const appRouter = createBrowserRouter([
     {
