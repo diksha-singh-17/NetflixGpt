@@ -30,6 +30,15 @@
   - Update store with trailer video
   - Embed the youtube video and made it autoplay
   - Used Css to make it beautiful
+  - Build secondary container
+  - Build Movie list
+  - Build Movie card
+  - TMDB Image CDN URL
+  - Made the Browser page amazing with Tailwind CSS
+  - UsePopularMovies Custom hook
+  - GPT SearchPage
+  - GPT SearchBar
+  - (\*) Multi-language feature in our app
 
 # Plans
 

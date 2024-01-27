@@ -26,5 +26,8 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "en", name: "English" },
   { identifier: "hindi", name: "Hindi" },
   { identifier: "spanish", name: "Spanish" },
+  { identifier: "french", name: "French" },
+  { identifier: "arabic", name: "Arabic" },
 ];
-export const OPEN_AI = "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";
+export const OPEN_AI_KEY =
+  "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";
