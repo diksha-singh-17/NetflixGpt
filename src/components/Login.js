@@ -62,7 +62,7 @@ const Login = () => {
         .catch((error) => {
           const errorCode = error.code;
           const errorMessage = error.message;
-          console.log(errorCode + errorMessage);
+          console.error(errorCode + errorMessage);
           // ..
         });
     } else {
@@ -79,7 +79,7 @@ const Login = () => {
           const errorCode = error.code;
           const errorMessage = error.message;
           setErrorMessage(errorCode + "-" + errorMessage);
-          console.log(errorCode, errorMessage);
+          console.error(errorCode, errorMessage);
         });
     }
   };

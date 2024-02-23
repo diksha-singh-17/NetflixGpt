@@ -30,4 +30,4 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "arabic", name: "Arabic" },
 ];
 export const OPEN_AI_KEY =
-  "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";
+  "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";
